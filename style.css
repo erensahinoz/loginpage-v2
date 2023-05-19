@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Publica Play', sans-serif;
+    background-image: url("assets/sea.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff4f4f;
+  }
+  
+  #header-line {
+    height: 8px;
+    background-image: linear-gradient(to right, #ff6b6b, #ffda83, #b4ff8e, #81e6d9, #a3bffa, #ff7ad4);
+    animation: rainbow 5s linear infinite;
+  }
+  
+  
+  @keyframes waveAnimation {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 1920px 0;
+    }
+  }
+  
+  .footer-content {
+    position: relative;
+    padding: 100px;
+    text-align: center;
+    color: white;
+  }
+
+  .heart-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    top: 100px;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  

@@ -13,3 +13,6 @@ Her şeyi de ben söylemeyeyim, biraz da kendin bak.
 
 # Notlar
 Düzenleyip ya da forklayıp kendinize göre kullanmak istiyorsanız, assets klasöründeki dosyaları değiştirmeyi unutmayın.
+
+# Demo
+Demo için: https://loginpage-v2.vercel.app/
